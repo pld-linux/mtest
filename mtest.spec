@@ -5,8 +5,6 @@ Version:	1
 Release:	2
 License:	Custom
 Group:		Networking/Daemons
-Group(de):	Netzwerkwesen/Server
-Group(pl):	Sieciowe/Serwery
 Source0:	http://catarina.usc.edu/pim/pimd/%{name}.tar.gz
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
