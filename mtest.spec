@@ -1,7 +1,8 @@
 Summary:	Multicast testing tools
+Summary(pl):	Narzêdzia testuj±ce multicasty
 Name:		mtest
 Version:	1
-Release:	1
+Release:	2
 License:	Custom
 Group:		Networking/Daemons
 Group(de):	Netzwerkwesen/Server
@@ -14,6 +15,12 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 receiver tools for multicast routing debugging. They don't have any
 "user friendly" interface, but give you a simple and sufficient
 control for debugging.
+
+%description -l pl
+msend i mrcv to narzêdzia do odpowiednio wysy³ania i odbierania
+multicastów, s³u¿±ce do debuggowania routingu multicastowego. Nie
+maj± ¿adnego "przyjaznego u¿ytkownikowi" interfejsu, ale daj± prost±
+i wystarczaj±c± kontrolê do potrzeb testowania.
 
 %prep
 %setup -q -n %{name}
