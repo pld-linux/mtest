@@ -1,6 +1,6 @@
 Summary:	Multicast testing tools
 Name:		mtest
-Version:	0
+Version:	1
 Release:	0
 License:	Custom
 Group:		Networking/Daemons
@@ -18,12 +18,14 @@ control for debugging.
 %setup -q -n %{name}
 
 %build
-make 
+%{__make} 
 
 %install
 rm -rf $RPM_BUILD_ROOT
 install -d $RPM_BUILD_ROOT%{_bindir}
+
 install msend mrcv $RPM_BUILD_ROOT%{_bindir}
+
 gzip -9nf README
 
 %clean
