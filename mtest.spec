@@ -6,6 +6,7 @@ Release:	2
 License:	custom
 Group:		Networking/Daemons
 Source0:	http://catarina.usc.edu/pim/pimd/%{name}.tar.gz
+# Source0-md5:	79e617d34d4b19a7f9f1c2ee19e455a7
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
