@@ -16,9 +16,9 @@ control for debugging.
 
 %description -l pl
 msend i mrcv to narzêdzia do odpowiednio wysy³ania i odbierania
-multicastów, s³u¿±ce do debuggowania routingu multicastowego. Nie
-maj± ¿adnego "przyjaznego u¿ytkownikowi" interfejsu, ale daj± prost±
-i wystarczaj±c± kontrolê do potrzeb testowania.
+multicastów, s³u¿±ce do debuggowania routingu multicastowego. Nie maj±
+¿adnego "przyjaznego u¿ytkownikowi" interfejsu, ale daj± prost± i
+wystarczaj±c± kontrolê do potrzeb testowania.
 
 %prep
 %setup -q -n %{name}
