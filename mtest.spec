@@ -2,7 +2,7 @@ Summary:	Multicast testing tools
 Summary(pl):	Narzêdzia testuj±ce multicasty
 Name:		mtest
 Version:	1
-Release:	2
+Release:	3
 License:	custom
 Group:		Networking/Daemons
 Source0:	http://catarina.usc.edu/pim/pimd/%{name}.tar.gz
