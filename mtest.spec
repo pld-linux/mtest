@@ -3,7 +3,7 @@ Summary(pl):	Narzêdzia testuj±ce multicasty
 Name:		mtest
 Version:	1
 Release:	2
-License:	Custom
+License:	custom
 Group:		Networking/Daemons
 Source0:	http://catarina.usc.edu/pim/pimd/%{name}.tar.gz
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
