@@ -1,7 +1,7 @@
 Summary:	Multicast testing tools
 Name:		mtest
 Version:	1
-Release:	0
+Release:	1
 License:	Custom
 Group:		Networking/Daemons
 Group(pl):	Sieciowe/Serwery
@@ -18,7 +18,7 @@ control for debugging.
 %setup -q -n %{name}
 
 %build
-%{__make} 
+%{__make} CFLAGS="$RPM_OPT_FLAGS"
 
 %install
 rm -rf $RPM_BUILD_ROOT
