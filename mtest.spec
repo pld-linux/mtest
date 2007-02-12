@@ -1,5 +1,5 @@
 Summary:	Multicast testing tools
-Summary(pl):	Narzêdzia testuj±ce multicasty
+Summary(pl.UTF-8):   NarzÄ™dzia testujÄ…ce multicasty
 Name:		mtest
 Version:	1
 Release:	3
@@ -15,11 +15,11 @@ receiver tools for multicast routing debugging. They don't have any
 "user friendly" interface, but give you a simple and sufficient
 control for debugging.
 
-%description -l pl
-msend i mrcv to narzêdzia do odpowiednio wysy³ania i odbierania
-multicastów, s³u¿±ce do debuggowania routingu multicastowego. Nie maj±
-¿adnego "przyjaznego u¿ytkownikowi" interfejsu, ale daj± prost± i
-wystarczaj±c± kontrolê do potrzeb testowania.
+%description -l pl.UTF-8
+msend i mrcv to narzÄ™dzia do odpowiednio wysyÅ‚ania i odbierania
+multicastÃ³w, sÅ‚uÅ¼Ä…ce do debuggowania routingu multicastowego. Nie majÄ…
+Å¼adnego "przyjaznego uÅ¼ytkownikowi" interfejsu, ale dajÄ… prostÄ… i
+wystarczajÄ…cÄ… kontrolÄ™ do potrzeb testowania.
 
 %prep
 %setup -q -n %{name}
