@@ -1,5 +1,5 @@
 Summary:	Multicast testing tools
-Summary(pl.UTF-8):   Narzędzia testujące multicasty
+Summary(pl.UTF-8):	Narzędzia testujące multicasty
 Name:		mtest
 Version:	1
 Release:	3
